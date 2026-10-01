@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-puma" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg-puma)"/>
+  <g transform="translate(100, 110) scale(0.7)">
+    <path d="M 60,300 C 140,305 460,305 510,280 L 510,305 C 450,330 140,330 60,300 Z" fill="#ffffff"/>
+    <path d="M 75,280 C 100,240 140,230 220,220 C 260,215 300,175 350,150 C 400,145 440,175 470,230 C 470,250 470,270 470,270 C 420,270 370,275 270,275 C 160,275 100,265 75,280 Z" fill="#1e3a8a"/>
+    <!-- Puma Formstrip -->
+    <path d="M 140,250 C 250,250 330,220 460,185 C 445,205 340,235 160,260 Z" fill="#ffffff"/>
+    <text x="310" y="195" font-family="sans-serif" font-weight="900" font-size="22" fill="#fbbf24">PUMA</text>
+  </g>
+  <text x="300" y="360" text-anchor="middle" fill="#93c5fd" font-family="sans-serif" font-weight="600" font-size="14" letter-spacing="3">PUMA SUEDE CLASSIC XXI</text>
+</svg>

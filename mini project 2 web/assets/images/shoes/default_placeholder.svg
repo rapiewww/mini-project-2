@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-default" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg-default)"/>
+  <g transform="translate(236, 120)" stroke="#64748b" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Sneaker Silhouette Icon -->
+    <path d="M 10,100 C 20,60 50,50 90,45 C 110,25 130,10 160,20 C 180,28 175,60 170,80 C 160,100 150,110 130,110 C 80,110 40,110 10,100 Z" stroke="#94a3b8" fill="#334155" fill-opacity="0.3"/>
+    <path d="M 5,115 C 30,120 160,120 180,105 C 185,95 180,85 160,85 C 140,85 120,95 80,95 C 40,95 20,90 5,100 Z" fill="#475569"/>
+    <line x1="70" y1="50" x2="85" y2="45" stroke="#94a3b8"/>
+    <line x1="60" y1="65" x2="80" y2="60" stroke="#94a3b8"/>
+  </g>
+  <text x="300" y="270" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-weight="600" font-size="16" letter-spacing="1">KICKSVAULT PREMIUM</text>
+  <text x="300" y="295" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="13">Pratinjau Foto Sepatu</text>
+</svg>

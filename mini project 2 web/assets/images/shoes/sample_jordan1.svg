@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="shoe-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg-grad)"/>
+  <circle cx="300" cy="200" r="140" fill="#ef4444" opacity="0.1"/>
+  <g transform="translate(90, 80) scale(0.7)" filter="url(#shadow)">
+    <!-- Sole -->
+    <path d="M 60,330 C 140,335 460,335 520,310 C 530,290 520,270 480,270 C 440,270 380,285 280,285 C 160,285 100,275 60,300 Z" fill="#ffffff"/>
+    <path d="M 60,330 C 140,335 460,335 520,310 C 525,320 515,335 470,335 C 370,335 150,338 60,330 Z" fill="#b91c1c"/>
+    <!-- Shoe Body -->
+    <path d="M 80,300 C 90,260 120,250 180,245 C 230,240 260,200 290,140 C 310,100 370,70 430,80 C 470,85 490,120 480,180 C 475,220 480,250 490,270 C 440,270 380,285 280,285 C 160,285 100,275 80,300 Z" fill="url(#shoe-red)"/>
+    <!-- Overlays Black & White -->
+    <path d="M 220,240 C 260,240 290,170 320,130 C 350,90 390,95 420,105 L 390,170 C 340,190 280,210 220,240 Z" fill="#0f172a"/>
+    <path d="M 120,250 C 160,250 190,250 220,240 C 210,270 170,280 120,280 Z" fill="#ffffff"/>
+    <path d="M 430,120 C 460,130 470,160 465,220 C 430,225 390,225 350,220 C 390,170 410,130 430,120 Z" fill="#ffffff"/>
+    <!-- Swoosh/Aksen -->
+    <path d="M 250,230 C 320,210 400,160 460,150 C 440,180 370,225 310,240 C 270,250 240,240 250,230 Z" fill="#0f172a"/>
+    <!-- Laces -->
+    <line x1="280" y1="160" x2="310" y2="150" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <line x1="260" y1="185" x2="295" y2="175" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <line x1="240" y1="210" x2="280" y2="200" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="360" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-weight="600" font-size="14" letter-spacing="3">AIR JORDAN 1 RETRO</text>
+</svg>

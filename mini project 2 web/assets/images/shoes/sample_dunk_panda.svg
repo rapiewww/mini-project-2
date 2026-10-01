@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-panda" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg-panda)"/>
+  <circle cx="300" cy="200" r="140" fill="#ffffff" opacity="0.05"/>
+  <g transform="translate(100, 110) scale(0.7)">
+    <!-- Sole -->
+    <path d="M 60,300 C 140,305 460,305 510,280 C 520,260 510,240 470,240 C 430,240 370,255 270,255 C 150,255 90,245 60,270 Z" fill="#ffffff"/>
+    <path d="M 60,300 C 120,315 450,315 510,280 L 510,295 C 450,325 120,325 60,300 Z" fill="#09090b"/>
+    <!-- Body White -->
+    <path d="M 80,270 C 100,230 130,220 190,215 C 240,210 270,170 300,130 C 330,100 390,85 440,100 C 480,110 480,160 470,210 C 465,235 470,240 470,240 C 420,240 370,255 270,255 C 160,255 100,245 80,270 Z" fill="#ffffff"/>
+    <!-- Black Overlays -->
+    <path d="M 80,270 C 100,240 130,235 170,235 C 160,260 120,265 80,270 Z" fill="#09090b"/>
+    <path d="M 220,210 C 260,210 290,140 320,100 C 350,60 390,65 420,75 L 390,140 C 340,160 280,180 220,210 Z" fill="#09090b"/>
+    <path d="M 430,90 C 460,100 470,130 465,190 C 430,195 390,195 350,190 C 390,140 410,100 430,90 Z" fill="#09090b"/>
+    <!-- Swoosh -->
+    <path d="M 240,200 C 310,180 390,130 450,120 C 430,150 360,195 300,210 C 260,220 230,210 240,200 Z" fill="#09090b"/>
+  </g>
+  <text x="300" y="360" text-anchor="middle" fill="#a1a1aa" font-family="sans-serif" font-weight="600" font-size="14" letter-spacing="3">NIKE DUNK LOW PANDA</text>
+</svg>
